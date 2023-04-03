@@ -1,0 +1,8 @@
+{{#if login.loggedIn}}
+
+<form action="./add" method="post" enctype="multipart/form-data">
+    <div><label for="photo">Photo</label><input type="file" name="photo" /></div>
+    <div><label for="description">Description</label><textarea name="description"></textarea></div>
+    <div><input type="submit" value="Add" /></div>
+</form>
+{{/if}}

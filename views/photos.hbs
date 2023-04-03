@@ -1,0 +1,16 @@
+{{> menu}}
+{{#if login.loggedIn}}
+<a href="/photo/add">Add Photo</a>
+{{/if}}
+<div class="gallery">
+	{{#each data}}
+	{{#if filename}}
+	<div class="gallery-photo">
+		<a href="./photo/{{photo_id}}">
+			<img src="/images/gallery/{{filename}}" />
+		</a>
+		<p>{{description}}</p>
+	</div>
+	{{/if}}
+	{{/each}}
+</div>

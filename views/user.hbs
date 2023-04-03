@@ -1,0 +1,11 @@
+{{>menu }}
+{{#with login.user}}
+<div class="profile">
+    <div>
+        <span class="title">Username:</span><span>{{username}}</span>
+    </div>
+    <div>
+        <span class="title">Email:</span><span>{{email}}</span>
+    </div>
+</div>
+{{/with}}

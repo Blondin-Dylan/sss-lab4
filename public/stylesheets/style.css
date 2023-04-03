@@ -1,0 +1,48 @@
+body {
+	padding: 50px;
+	font: 14px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+	color: #123fbd;
+}
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gallery .gallery-photo {
+	max-width: 30%;
+	min-width: 200px;
+}
+
+.gallery .gallery-photo img {
+	width: 100%;
+}
+
+.photo-menu {
+	display: flex;
+}
+
+.photo-thumb {
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: no-repeat center;
+}
+
+form.page-edit textarea {
+	width: 80%;
+	height: 300px;
+}
+
+li.active a {
+	text-decoration: none;
+}
+
+.profile span.title {
+	font-weight: bold;
+}
